@@ -1,4 +1,4 @@
-# Dushyant Singh Pawar - Data Scientist & Full Stack Developer
+# Dushyant Singh Pawar - Data Scientist
 
 👋 Hi! I'm Dushyant Singh Pawar, a Data Scientist and Full Stack Developer currently at UNC Charlotte.
 
@@ -12,7 +12,7 @@
 - Asst. Systems Engineer @ TCS | Nov. '20 - Feb. '22
 
 💻 **Skills:**
-Python, JS, HTML/CSS, AWS, Git, MongoDB, SQL, Scikit, TensorFlow
+Python, AWS, Git, MongoDB, SQL, Scikit, TensorFlow, Machine Learning
 
 🚀 **Current Endeavors:**
 - Pursuing Masters from UNCCharlotte
