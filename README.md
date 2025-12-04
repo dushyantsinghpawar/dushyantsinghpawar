@@ -35,9 +35,6 @@ Hello, I am Dushyant Singh Pawar. I focus on backend systems, cloud-native data 
 **GitHub Profile Overview**  
 I showcase end-to-end work that connects software engineering and data science: clean APIs with tests, cloud-native pipelines, and applied ML workflows that bridge research and production.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dushyantsinghpawar&show_icons=true&theme=default&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dushyantsinghpawar&layout=compact&theme=default)
-![GitHub Streak](https://streak-stats.demolab.com?user=dushyantsinghpawar&theme=default)
 
 **Pinned Repositories**
 - [**quickapi**](https://github.com/dushyantsinghpawar/quickapi) — FastAPI + JWT, Postgres + Alembic, ML endpoint, Streamlit, Docker, tests.
