@@ -2,9 +2,9 @@
 
 **Backend & Data Engineer** building systems that survive real usage.
 
-I design software where **correctness matters**—multi-tenant architectures, proper auth boundaries, schema evolution, event-driven pipelines, and ML integrated into products (not notebooks).
+I design software where correctness matters. Multi-tenant architectures, proper auth boundaries, schema evolution, event-driven pipelines, and ML integrated into products instead of notebooks.
 
-The gap between "it works in dev" and "it works at scale" is where I focus.
+The gap between it works in dev and it works at scale is where I focus.
 
 ---
 
@@ -28,108 +28,70 @@ I build for:
 ## Featured Work
 
 ### [MEDKids OrderUp](https://github.com/dushyantsinghpawar/medkids-orderup-backend)
-Production-style SaaS platform for managing children's profiles, dietary preferences, and allergies.
+Production SaaS backend for managing children's profiles, dietary preferences, and allergies.
 
-**Why it matters:**  
-Multi-tenant data systems need careful design. This proves how to isolate user data, enforce access boundaries, and keep schemas safe across migrations.
+Why it matters: Multi-tenant data systems are hard. This shows how to isolate user data, enforce access boundaries, and keep schemas safe across migrations.
 
-**Live demo:** https://medkids.up.railway.app/docs
+Live demo: https://medkids.up.railway.app/docs
 
-**Tech Stack:**  
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `JWT` `RBAC` `Docker` `Railway`
+Tech: FastAPI, PostgreSQL, SQLAlchemy, Alembic, JWT, RBAC, Docker, Railway
 
 ---
 
 ### [QuickAPI](https://github.com/dushyantsinghpawar/quickapi)
-A reusable backend service template—the foundation I start every API project with.
+Reusable backend service template. How I start every API project.
 
-**Why it matters:**  
-I don't write one-off scripts. This is how I think about service structure: clean separation, proper logging, testable layers, deployment-ready from day one.
+Why it matters: I don't write one-off scripts. This is my template for service structure: clean separation, proper logging, testable layers, deployment-ready from day one.
 
-**Tech Stack:**  
-`FastAPI` `SQLAlchemy` `PostgreSQL` `Pydantic` `Docker` `pytest`
+Tech: FastAPI, SQLAlchemy, PostgreSQL, Pydantic, Docker, pytest
 
 ---
 
 ### [SupportAI](https://github.com/dushyantsinghpawar/supportai)
-AI-assisted support workflow automation—demonstrates how to integrate LLMs into software pipelines.
+AI-assisted support workflow automation. Integrating LLMs into software pipelines.
 
-**Why it matters:**  
-AI isn't just chatbots. This shows how to use language models as components in deterministic workflows, with proper error handling, context management, and audit trails.
+Why it matters: AI isn't just chatbots. This is about using language models as components in real workflows, with proper error handling, context management, and audit trails.
 
-**Tech Stack:**  
-`LangChain` `FastAPI` `PostgreSQL` `OpenAI API` `Event Processing` `Docker`
+Tech: LangChain, FastAPI, PostgreSQL, OpenAI API, Event Processing, Docker
 
 ---
 
 ### [LSTM Forecasting Service](https://github.com/dushyantsinghpawar/lstm-stock-predictor)
-End-to-end time-series prediction pipeline with deterministic training and inference.
+End-to-end time-series prediction pipeline. Deterministic training and inference.
 
-**Why it matters:**  
-ML becomes useful when it's reproducible, versioned, and deployable. This isn't a Jupyter notebook—it's a service with proper model versioning, input validation, and inference guarantees.
+Why it matters: ML only matters when it's reproducible, versioned, and deployable. This is a service with proper model versioning, input validation, and inference guarantees. Not a Jupyter notebook.
 
-**Tech Stack:**  
-`TensorFlow` `PyTorch` `scikit-learn` `FastAPI` `MLflow` `PostgreSQL` `Docker`
+Tech: TensorFlow, PyTorch, scikit-learn, FastAPI, MLflow, PostgreSQL, Docker
 
 ---
 
-## Engineering Interests
+## What Interests Me
 
-**Systems & Architecture**
-- Distributed service design
-- Event-driven processing
-- Data pipelines and ETL
-- Observability and reliability
+Systems architecture and distributed service design. Event-driven processing. Data pipelines and ETL.
 
-**Data & Databases**
-- Schema design and evolution
-- Multi-tenancy patterns
-- Database migrations at scale
-- Query optimization
+Schema design and database evolution. Multi-tenancy patterns. Query optimization.
 
-**Applied ML**
-- ML in production (not notebooks)
-- Model versioning and reproducibility
-- Feature engineering pipelines
-- Integration with backend systems
+ML that actually works in production (not notebooks). Model versioning. Feature engineering pipelines.
 
-**Backend Development**
-- API design and contracts
-- Authentication & authorization
-- Database transaction safety
-- Service orchestration
+API design and contracts. Authentication and authorization. Database safety. Service orchestration.
 
 ---
 
 ## Background
 
-**Education**  
-MS Computer Science — UNC Charlotte
+MS Computer Science from UNC Charlotte.
 
-**Professional Experience**
-- Backend Engineer at Rebecca Everlene Trust Company
-- Backend Developer, Data Analyst, Systems Engineer roles
+Previously: Backend Engineer at Rebecca Everlene Trust Company. Also worked as Backend Developer, Data Analyst, Systems Engineer.
 
 ---
 
-## Get In Touch
+## Contact
 
-Email: dushyantsinghpawar@gmail.com  
-LinkedIn: https://www.linkedin.com/in/dushyantsinghpawar/  
-Portfolio: https://dushyantsinghpawar.github.io/Portfolio/  
-Live System: https://medkids.up.railway.app/
-
----
-
-## What's in My Recent Work
-
-| Project | Core Value | Skill Demonstrated |
-|---------|-----------|-------------------|
-| MEDKids | Safe multi-tenant isolation | System design, RBAC, schema safety |
-| QuickAPI | Starting foundation | Architecture patterns, reusability |
-| SupportAI | AI as infrastructure | LLM integration, workflow design |
-| LSTM Service | ML → deployable product | ML ops, reproducibility, pipelines |
+dushyantsinghpawar@gmail.com
+https://www.linkedin.com/in/dushyantsinghpawar/
+https://dushyantsinghpawar.github.io/Portfolio/
+Live system: https://medkids.up.railway.app/docs
 
 ---
 
-**Open to:** Backend engineering roles, data systems work, or discussing how to move software from prototype → reliable service.
+I'm interested in backend engineering roles, data systems work, and talking about how to move software from prototype to something reliable.
