@@ -34,7 +34,7 @@ Why it matters: Multi-tenant data systems are hard. This shows how to isolate us
 
 Live demo: https://medkids.up.railway.app/docs
 
-Tech: FastAPI, PostgreSQL, SQLAlchemy, Alembic, JWT, RBAC, Docker, Railway
+Tech: `FastAPI`, `PostgreSQL`, `SQLAlchemy`, `Alembic, JWT`, `RBAC`, `Docker`, `Railway`
 
 ---
 
@@ -43,7 +43,7 @@ Reusable backend service template. How I start every API project.
 
 Why it matters: I don't write one-off scripts. This is my template for service structure: clean separation, proper logging, testable layers, deployment-ready from day one.
 
-Tech: FastAPI, SQLAlchemy, PostgreSQL, Pydantic, Docker, pytest
+Tech: `FastAPI`, `SQLAlchemy`, `PostgreSQL`, `Pydantic`, `Docker`, `pytest`
 
 ---
 
@@ -52,7 +52,7 @@ AI-assisted support workflow automation. Integrating LLMs into software pipeline
 
 Why it matters: AI isn't just chatbots. This is about using language models as components in real workflows, with proper error handling, context management, and audit trails.
 
-Tech: LangChain, FastAPI, PostgreSQL, OpenAI API, Event Processing, Docker
+Tech: `LangChain`, `FastAPI`, `PostgreSQL`, `OpenAI API`, `Event Processing`, `Docker`
 
 ---
 
@@ -61,7 +61,7 @@ End-to-end time-series prediction pipeline. Deterministic training and inference
 
 Why it matters: ML only matters when it's reproducible, versioned, and deployable. This is a service with proper model versioning, input validation, and inference guarantees. Not a Jupyter notebook.
 
-Tech: TensorFlow, PyTorch, scikit-learn, FastAPI, MLflow, PostgreSQL, Docker
+Tech: `TensorFlow`, `PyTorch`, `scikit-learn`, `FastAPI`, `MLflow`, `PostgreSQL`, `Docker`
 
 ---
 
@@ -71,7 +71,7 @@ Systems architecture and distributed service design. Event-driven processing. Da
 
 Schema design and database evolution. Multi-tenancy patterns. Query optimization.
 
-ML that actually works in production (not notebooks). Model versioning. Feature engineering pipelines.
+ML that actually works in production. Model versioning. Feature engineering pipelines.
 
 API design and contracts. Authentication and authorization. Database safety. Service orchestration.
 
@@ -79,9 +79,9 @@ API design and contracts. Authentication and authorization. Database safety. Ser
 
 ## Background
 
-MS Computer Science from UNC Charlotte.
+Backend Engineer at Rebecca Everlene Trust Company
 
-Previously: Backend Engineer at Rebecca Everlene Trust Company. Also worked as Backend Developer, Data Analyst, Systems Engineer.
+Previously: MS Computer Science from UNC Charlotte. Also worked as Software Developer, Data Analyst, Systems Engineer.
 
 ---
 
