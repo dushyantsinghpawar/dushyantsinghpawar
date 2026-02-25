@@ -1,50 +1,135 @@
-# Dushyant Singh Pawar - Software Engineer and Data Scientist
+# Dushyant Singh Pawar
 
-Hello, I am Dushyant Singh Pawar. I focus on backend systems, cloud-native data pipelines, and applied machine learning. My work spans research prototypes and production-ready systems with an emphasis on reliability, scalability, and measurable impact.
+**Backend & Data Engineer** building systems that survive real usage.
 
-**Education:**
-- *MS in Computer Science* | UNC Charlotte | Aug 2023 – May 2025
-- *BTech in Computer Science Engineering* | Medi-Caps University | Aug 2016 – Aug 2020
+I design software where **correctness matters**—multi-tenant architectures, proper auth boundaries, schema evolution, event-driven pipelines, and ML integrated into products (not notebooks).
 
-**Experience:**
-- *Software Engineer (Data & Analytics)* | Rebecca Everlene Trust Company | Jul 2025 – Present
-- *Graduate Research & Teaching Assistant* | UNC Charlotte | Jan 2024 – May 2025
-- *Data Analyst and Backend Developer* | EdvanceSkill for Actuaries | Mar 2022 – Apr 2023
-- *Assistant System Engineer* | Tata Consultancy Services | Nov 2020 – Feb 2022
+The gap between "it works in dev" and "it works at scale" is where I focus.
 
-**Skills:**
-- *Programming Languages:* Python, Java, C++, JavaScript/TypeScript, SQL, Bash
-- *Backend & APIs:* FastAPI, Flask, Spring Boot, REST APIs, OpenAPI/Swagger, Postman, JSON
-- *Data & ML:* Scikit-learn, TensorFlow, XGBoost, Pandas, NumPy, PySpark, LangChain, RAG pipelines (HyDE, query rewriting), Feature Engineering, Model Evaluation
-- *Cloud & DevOps:* AWS (Lambda, API Gateway, S3, EC2, RDS, DynamoDB, CloudWatch, IAM, VPC, SQS/SNS), Docker, Kubernetes, Terraform, CloudFormation, CI/CD (GitHub Actions, Jenkins), Serverless, Infrastructure as Code (IaC)
-- *Data Engineering & Warehousing:* ETL/ELT pipelines, Kafka, Snowflake, Data Warehousing, SQL Tuning, Caching (Redis)
-- *Databases:* PostgreSQL, MySQL, Oracle, MongoDB, Redis
-- *Security & Auth:* OAuth2, JWT, RBAC, Secrets Management, Least-Privilege IAM, Network Segmentation (VPC, SGs)
-- *Testing & Quality:* PyTest, JUnit, TDD, Pre-commit, Linting/Formatting (Ruff, Black), Load Testing (JMeter), Code Coverage
-- *Observability & Reliability:* Monitoring and Logging (CloudWatch, Prometheus, Grafana, ELK), Tracing, Idempotency, Retries & DLQs, SLOs/SLIs
-- *BI & Visualization:* Power BI, Tableau, Streamlit, Matplotlib
-- *Collaboration & Tooling:* Git, GitHub, GitHub Projects, Markdown, Linux, Bash scripting
+---
 
-**Selected Projects:**
-- *AWS Serverless Pipeline* — Event-driven file ingestion with Lambda, S3, DynamoDB, retries, and DLQs; processes files in under 3 seconds at less than one dollar per month.
-- *EngageTrack Analytics* — Real-time learning analytics dashboard (Flask, React, PostgreSQL) with 92% accuracy and sub-200ms query latency for 100+ users.
-- *ChartMind AI* — Lightweight chart interpretation service (Python, OpenCV, Docker) reaching 85% accuracy on 500+ test samples; reduces manual analysis time by 60%.
-- *QuickAPI* — Production-ready FastAPI backend with JWT authentication, ML prediction service, audit logging, Docker, and CI/CD automation.
-- *LSTM Stock Predictor* — Reproducible LSTM training/inference with CLI and planned Gradio UI; includes training and prediction pipelines.
+## Philosophy
 
-**GitHub Profile Overview**  
-I showcase end-to-end work that connects software engineering and data science: clean APIs with tests, cloud-native pipelines, and applied ML workflows that bridge research and production.
+I don't believe in:
+- Prototypes without a migration strategy
+- ML notebooks shipped as "production"
+- APIs without contracts or access boundaries
+- Data systems without ownership semantics
 
+I build for:
+- Reliability and observability
+- Schema evolution and long-lived systems
+- Multi-tenant isolation and RBAC
+- Deployable, testable services
+- Predictable APIs that don't surprise you at 2 AM
 
-**Pinned Repositories**
-- [**quickapi**](https://github.com/dushyantsinghpawar/quickapi) — FastAPI + JWT, Postgres + Alembic, ML endpoint, Streamlit, Docker, tests.
-- [**Portfolio**](https://github.com/dushyantsinghpawar/Portfolio) — Personal site with projects, resume, and contact.
-- [**KnowledgeVIS_Custom**](https://github.com/dushyantsinghpawar/KnowledgeVIS_Custom) — Streamlit app probing masked-language models across themes.
-- [**chartmind**](https://github.com/dushyantsinghpawar/chartmind) — Multimodal chart reasoning and interpretation notebooks.
-- [**lstm-stock-predictor**](https://github.com/dushyantsinghpawar/lstm-stock-predictor) — LSTM training/inference pipeline with artifacts and quickstart.
+---
 
-**How to reach me:**
-- *Email:* dushyantsinghpawar@gmail.com
-- *LinkedIn:* https://www.linkedin.com/in/dushyantsinghpawar/
-- *Portfolio:* https://dushyantsinghpawar.github.io/Portfolio/
-- *GitHub:* https://github.com/dushyantsinghpawar
+## Featured Work
+
+### [MEDKids OrderUp](https://github.com/dushyantsinghpawar/medkids-orderup-backend)
+Production-style SaaS platform for managing children's profiles, dietary preferences, and allergies.
+
+**Why it matters:**  
+Multi-tenant data systems need careful design. This proves how to isolate user data, enforce access boundaries, and keep schemas safe across migrations.
+
+**Live demo:** https://medkids.up.railway.app/docs
+
+**Tech Stack:**  
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `JWT` `RBAC` `Docker` `Railway`
+
+---
+
+### [QuickAPI](https://github.com/dushyantsinghpawar/quickapi)
+A reusable backend service template—the foundation I start every API project with.
+
+**Why it matters:**  
+I don't write one-off scripts. This is how I think about service structure: clean separation, proper logging, testable layers, deployment-ready from day one.
+
+**Tech Stack:**  
+`FastAPI` `SQLAlchemy` `PostgreSQL` `Pydantic` `Docker` `pytest`
+
+---
+
+### [SupportAI](https://github.com/dushyantsinghpawar/supportai)
+AI-assisted support workflow automation—demonstrates how to integrate LLMs into software pipelines.
+
+**Why it matters:**  
+AI isn't just chatbots. This shows how to use language models as components in deterministic workflows, with proper error handling, context management, and audit trails.
+
+**Tech Stack:**  
+`LangChain` `FastAPI` `PostgreSQL` `OpenAI API` `Event Processing` `Docker`
+
+---
+
+### [LSTM Forecasting Service](https://github.com/dushyantsinghpawar/lstm-stock-predictor)
+End-to-end time-series prediction pipeline with deterministic training and inference.
+
+**Why it matters:**  
+ML becomes useful when it's reproducible, versioned, and deployable. This isn't a Jupyter notebook—it's a service with proper model versioning, input validation, and inference guarantees.
+
+**Tech Stack:**  
+`TensorFlow` `PyTorch` `scikit-learn` `FastAPI` `MLflow` `PostgreSQL` `Docker`
+
+---
+
+## Engineering Interests
+
+**Systems & Architecture**
+- Distributed service design
+- Event-driven processing
+- Data pipelines and ETL
+- Observability and reliability
+
+**Data & Databases**
+- Schema design and evolution
+- Multi-tenancy patterns
+- Database migrations at scale
+- Query optimization
+
+**Applied ML**
+- ML in production (not notebooks)
+- Model versioning and reproducibility
+- Feature engineering pipelines
+- Integration with backend systems
+
+**Backend Development**
+- API design and contracts
+- Authentication & authorization
+- Database transaction safety
+- Service orchestration
+
+---
+
+## Background
+
+**Education**  
+MS Computer Science — UNC Charlotte
+
+**Professional Experience**
+- Backend Engineer at Rebecca Everlene Trust Company
+- Backend Developer, Data Analyst, Systems Engineer roles
+
+---
+
+## Get In Touch
+
+Email: dushyantsinghpawar@gmail.com  
+LinkedIn: https://www.linkedin.com/in/dushyantsinghpawar/  
+Portfolio: https://dushyantsinghpawar.github.io/Portfolio/  
+Live System: https://medkids.up.railway.app/
+
+---
+
+## What's in My Recent Work
+
+| Project | Core Value | Skill Demonstrated |
+|---------|-----------|-------------------|
+| MEDKids | Safe multi-tenant isolation | System design, RBAC, schema safety |
+| QuickAPI | Starting foundation | Architecture patterns, reusability |
+| SupportAI | AI as infrastructure | LLM integration, workflow design |
+| LSTM Service | ML → deployable product | ML ops, reproducibility, pipelines |
+
+---
+
+**Open to:** Backend engineering roles, data systems work, or discussing how to move software from prototype → reliable service.
