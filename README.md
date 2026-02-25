@@ -87,10 +87,10 @@ Previously: Backend Engineer at Rebecca Everlene Trust Company. Also worked as B
 
 ## Contact
 
-dushyantsinghpawar@gmail.com
-https://www.linkedin.com/in/dushyantsinghpawar/
-https://dushyantsinghpawar.github.io/Portfolio/
-Live system: https://medkids.up.railway.app/docs
+- Email: dushyantsinghpawar@gmail.com
+- LinkedIn: https://www.linkedin.com/in/dushyantsinghpawar/
+- Portfolio: https://dushyantsinghpawar.github.io/Portfolio/
+- Live Demo: https://medkids.up.railway.app/docs
 
 ---
 
