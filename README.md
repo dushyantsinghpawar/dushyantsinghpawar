@@ -31,7 +31,7 @@ I build for:
 
 ### [MedKids OrderUp](https://github.com/dushyantsinghpawar/medkids-orderup-backend)
 
-MVP replica of the MedKids OrderUp production backend, built to demo the system to clients and stakeholders. Manages children's profiles, dietary preferences, and allergies. Full production context is in the repo README.
+MVP replica of the MedKids OrderUp backend I built at a previous company, rebuilt to demo the architecture to clients and stakeholders. Manages children's profiles, dietary preferences, and allergies. Full context on the original system is in the repo README.
 
 Why it matters: Multi-tenant data systems are hard. This shows how to isolate user data, enforce access boundaries, and keep schemas safe across migrations.
 
